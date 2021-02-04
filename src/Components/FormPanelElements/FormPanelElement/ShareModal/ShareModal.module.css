@@ -1,0 +1,54 @@
+.modal{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modalContent{
+    width: 450px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.modalBody{
+    margin-top: 55px;
+    margin-bottom: 20px;
+    border-top: 1px solid rgb(209, 206, 206);
+    padding-top: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+.modalButtons{
+    margin-bottom: 55px; 
+    border-bottom: 1px solid rgb(209, 206, 206);
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 43px;
+}
+.cancelButton{
+    margin-right: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 16px;
+    font-size: 18px;
+    border: none;
+    border-radius: .25rem;
+    cursor: pointer;
+    transition: 0.25s;
+}
+.cancelButton:hover{
+    background-color: #056ad6;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .modalContent{
+        width: 350px;
+    }
+
+}

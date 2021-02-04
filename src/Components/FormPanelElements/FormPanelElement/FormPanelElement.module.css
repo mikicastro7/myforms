@@ -1,0 +1,57 @@
+.formContainer{
+    border: 1px solid rgb(190, 188, 188);
+    width: 350px;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+}
+.formContainer h1 {
+    text-align: center;
+    background-color: #007bff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+.formContainer h2 {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(190, 188, 188);
+    font-size: 18px;
+}
+.formContainer p {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 5px;
+}
+.times {
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(190, 188, 188);
+}
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.buttons button{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 24px;
+    font-weight: bolder;
+    background-color: white;
+    border: none;
+    color: rgb(74, 193, 248);
+    cursor: pointer;
+}
+.buttons button{
+    outline: none;
+}
+.buttons button:hover{
+    color: rgb(128, 211, 250);
+}

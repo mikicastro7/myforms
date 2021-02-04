@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principalNav{
+    display: flex;
+    background-color: #20232a ;
+    padding: 12.5px;
+    justify-content: space-between;
+}
+.baner{
+    font-size: 24px;
+    color: #61DBFB;
+    margin-left: 8%;
+}
+.baner:hover{
+    color: #61DBFB;
+    text-decoration: none;
+}
+.noUnder{
+    text-decoration: none;
+}
+.logRe{
+    margin-right: 8%;
+    margin-top: 6px;
+}
+.login{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+
+}
+.login:hover{
+    text-decoration: underline;
+    color: white;
+}
+.register{
+    text-decoration: none;
+    color: white;
+}
+.register:hover{
+    text-decoration: underline;
+    color: white;
+}

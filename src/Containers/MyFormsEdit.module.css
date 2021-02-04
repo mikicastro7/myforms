@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.form{
+    width: 700px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.formHeader{
+    width: 100%;
+    background-color: rgb(254, 254, 254);
+    border-radius: 8px;
+    border: 1px solid  rgb(0, 165, 224);
+    border-top: 10px solid  rgb(0, 165, 224);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formDescription{
+    width: 90%;
+    display: block;
+    box-sizing: padding-box;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px rgba(black, .3);
+    border: none;
+    border-bottom: 2px solid rgb(174, 223, 246);
+    resize: none;
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-bottom: 2px;
+}
+.formDescription:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(2, 132, 179);
+    transition: .5s ease
+}
+.formTitle{
+    width: 90%;
+    display: block;
+    box-sizing: padding-box;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px rgba(black, .3);
+    border: none;
+    border-bottom: 2px solid rgb(174, 223, 246);
+    resize: none;
+    padding-top: 3px;
+    font-family: 'Roboto', sans-serif;;
+    font-weight: lighter;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.formTitle:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(2, 132, 179);
+    transition: .5s ease
+}
+
+.form h1{
+    font-family: 'Roboto', sans-serif;;
+    font-weight: lighter;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-left: 30px;
+}
+.form p {
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+}
+@media only screen and (max-width: 700px) {
+    .form{
+        width : 95%;
+    }
+    .formTitle{
+        width: 85%;
+    }
+    .formDescription{
+        width: 85%;
+    }
+}
+
+
+
+.buttons{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-top: 2px solid rgb(97, 202, 250);
+}
+.buttons button{
+    margin-right: 8%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 24px;
+    font-weight: bolder;
+    background-color: white;
+    border: none;
+    color: rgb(74, 193, 248);
+    cursor: pointer;
+}
+.buttons button{
+    outline: none;
+}
+.buttons button:hover{
+    color: rgb(128, 211, 250);
+}
+
+.background{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(228, 248, 255);
+    min-height:100vh;
+}

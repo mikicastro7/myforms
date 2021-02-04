@@ -1,0 +1,61 @@
+.headerEdit{
+    background-color: white;
+    position:sticky;
+    top:0;
+    border-bottom: 1px solid rgb(228, 226, 226);
+}
+.buttons{
+    width: 700px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.saveButton{
+    margin-right: 10%;
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    background-color: #007bff;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.saveButton:hover{
+    background-color: #0167d4;
+}
+.shareButton{
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    background-color: #17a2b8;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.shareButton:hover{
+    background-color:  #0b899c;
+}
+.icon{
+    margin-right: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    .buttons{
+        width: 90%;
+    }
+    .saveButton{
+        width: 40%;
+    }
+    .shareButton{
+        width: 40%;
+    }
+}

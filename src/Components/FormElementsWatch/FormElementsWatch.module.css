@@ -1,0 +1,72 @@
+.input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(174, 223, 246);
+}
+
+.input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(2, 132, 179);
+    transition: .5s ease
+}
+
+.textarea {
+    width: 100%;
+    display: block;
+    box-sizing: padding-box;
+    overflow: hidden;
+    background-color: #fff;
+    box-shadow: 2px 2px 8px rgba(black, .3);
+    border: none;
+    border-bottom: 2px solid rgb(174, 223, 246);
+    resize: none;
+    padding-top: 3px;
+}
+
+.textarea:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(2, 132, 179);
+    transition: .5s ease
+}
+
+.label {
+    margin-bottom: 25px;
+}
+
+.FormElement {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: rgb(254, 254, 254);
+    border: 1px solid rgb(0, 165, 224);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+}
+
+.checkbox {
+    padding: 4px 30px;
+}
+
+.multiSelector {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dropdown {
+    padding: 5px 10px;
+    border: 2px solid rgb(174, 223, 246);
+}
+
+.dropdown:focus {
+    outline: none;
+    border: 2px solid rgb(0, 165, 224);
+}
+
+.required {
+    color: rgb(0, 165, 224);
+    margin-left: 20px;
+    font-size: 10px;
+}

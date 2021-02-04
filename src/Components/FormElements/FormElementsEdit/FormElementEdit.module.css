@@ -1,0 +1,181 @@
+
+.input{
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid rgb(174, 223, 246);
+    background-color: white;
+    margin-bottom: 20px;
+    margin: auto;
+    margin-bottom: 20px
+}
+.input:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(2, 132, 179);
+    transition: .5s ease
+}
+.textarea{
+    width: 90%;
+    display: block;
+    box-sizing: padding-box;
+    overflow: hidden;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid rgb(174, 223, 246);
+    resize: none;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+.textarea:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(2, 132, 179);
+    transition: .5s ease
+}
+.textareaQuestion{
+    width: 90%;
+    display: block;
+    box-sizing: padding-box;
+    overflow: hidden;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid rgb(174, 223, 246);
+    resize: none;
+    
+    font-size: 16px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.textareaQuestion:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(2, 132, 179);
+    transition: .5s ease
+}
+.FormElement{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: rgb(254, 254, 254);
+    border: 1px solid  rgb(0, 165, 224);
+    padding-top: 20px;
+    border-radius: 8px;
+}
+.checkbox{
+    padding: 4px 30px;
+}
+.multiSelector{
+    display: flex;
+    flex-wrap: wrap;
+}
+.dropdown{
+    padding: 5px 10px;
+    border: 2px solid rgb(174, 223, 246);
+}
+.dropdown:focus{
+    outline: none;
+    border: 2px solid  rgb(0, 165, 224);
+}
+.required{
+    color: rgb(0, 165, 224);
+    margin-left: 20px;
+    font-size: 10px;
+}
+.editActive{
+    border-left: 10px solid rgb(0, 165, 224);
+}
+.questionTitle{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 25px !important;
+}
+.textAreaShow{
+    border-bottom: unset;
+}
+.multiSelector{
+    display: flex;
+    margin-left: 35px;
+}
+.multiSelectorInput {
+    border: none;
+    border-bottom: 2px solid rgb(174, 223, 246);
+    background-color: white;
+    margin-bottom: 20px;
+    width: 80%;
+}
+.multiSelectorInputNoBorder{
+    border: none;
+    margin-bottom: 20px;
+    width: 80%;
+}
+.multiSelectorInputNoBorder:focus{
+    outline: none;
+}
+.multiSelectorInput:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(2, 132, 179);
+    transition: .5s ease
+}
+.multiSelectorCheckBox{
+    margin-right: 10px;
+}
+.deleteOption{
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: lighter;
+    background-color: white;
+    border: none;
+    color: rgb(74, 193, 248);
+    cursor: pointer;
+}
+.deleteOption:hover{
+    color: rgb(128, 211, 250);
+}
+.deleteOption:focus{
+    outline: none;
+}
+.addOption{
+    background-color: white;
+    border: none;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(74, 193, 248);
+    cursor: pointer;
+}
+.addOption:focus{
+    outline: none;
+}
+.addOption:hover{
+    color: rgb(128, 211, 250);;
+}
+.multiSelectorInputs{
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    .input{
+        width: 85%;
+    }
+    .textarea{
+        width: 85%;
+    }
+    .textareaQuestion{
+        width: 85%;
+    }
+    .multiSelectorInput {
+        width: 70%;
+    }
+    .multiSelectorInputNoBorder{
+        width: 70%;
+    }
+}

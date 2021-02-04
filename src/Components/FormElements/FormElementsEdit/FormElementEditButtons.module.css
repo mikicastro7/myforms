@@ -1,0 +1,53 @@
+.buttons{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border-top: 2px solid rgb(97, 202, 250);
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.buttons button{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 24px;
+    font-weight: bolder;
+    background-color: white;
+    border: none;
+    color: rgb(74, 193, 248);
+    cursor: pointer;
+}
+.buttons button{
+    outline: none;
+}
+.buttons button:hover{
+    color: rgb(128, 211, 250);
+}
+.required{
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.questionTypeSelect{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: 2px solid rgb(74, 193, 248);
+    padding-left: 12px;
+    padding-right: 12px;
+    font-weight: bolder;
+    border-radius: 8px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+.questionTypeSelect:focus{
+    outline: none;
+    border: 2px solid rgb(0, 174, 255);
+}
+.questionTypeSelect:hover{
+    border: 2px solid rgb(0, 174, 255);
+}

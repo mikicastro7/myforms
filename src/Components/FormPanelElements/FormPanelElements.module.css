@@ -1,0 +1,32 @@
+.container{
+    width: 95%;
+    display: flex;
+    margin: auto;
+    align-items: left;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.addFor{
+    margin: 20px;
+    height: 204px;
+    width: 340px;
+    border: 5px solid rgb(74, 193, 248);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(74, 193, 248);
+    font-size: 100px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.addFor p{
+    padding: 10px 40px;
+    border: 5px dashed   rgb(74, 193, 248);
+    border-radius: 100px;
+}
+.addFor:hover{
+    border: 5px solid  rgb(0, 149, 218);
+}
